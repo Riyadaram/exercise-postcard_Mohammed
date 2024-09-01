@@ -3,6 +3,7 @@
 <head>
     <title>The Postcard</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-content">
@@ -10,30 +11,31 @@
 
         </header>
         <section>
-            <div class="postcard">
+            <form class="postcard" action="https://formspree.io/mohammedelmangadi@gmail.com" method="post">
                 <div class="postcard-header">
+                    <image src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png">
                     <h1>My Postcard</h1>
                 </div>
                 <div class="postcard-body">
                     <div class="left-part">
                         <p>how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
-                        
                         <p>This is so cool, can´t wait to start doing more stuff!</p>
                     </div>
                     <div class="right-part">
-                        <input type="text" name="">
-                        <input type="text" name="">
-                        <input type="text" name="">
+                        <input type="text" name="fullname" placeholder="Some name">
+                        <input type="text" name="email" placeholder="Some email">
+                        <input type="text" name="message" placeholder="Some content">
                     </div>
                 </div>
-                <div class="postcard-footer"></div>
-            </div>
+                <div class="postcard-footer">
+                    <input type="submit" value="Send My Postcard">
+                </div>
+            </form>
         </section>
         <footer>
             
         </footer>
     </div>
-    
 </body>
 </head>
 </html>
